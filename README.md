@@ -37,16 +37,16 @@ Previously, I worked as an **Assistant IT Officer at Jadeed Feed Industries Pvt.
 
 ## 💻 Featured software projects
 
-The repositories below are **original educational portfolio implementations** and are not copies of employers' proprietary code.
+The repositories below are **original educational portfolio implementations** and are not copies of employers' proprietary code. The four CV-aligned projects have their **own repositories, documented setup instructions, and CI test workflows**.
 
-### New CV-aligned coding projects
+### Standalone CV-aligned coding repositories
 
 | Project | What it demonstrates | Source |
 |:---|:---|:---|
-| **🏘️ DealerFlow API** | ASP.NET Core + EF Core + SQLite; dealer/listing workflows, filters, validation | [Code](projects/dealerflow-api) |
-| **🔎 ERP Migration Auditor** | Python CSV quality gates, schema validation, monetary precision, audit reports & tests | [Code](projects/erp-migration-auditor) |
-| **✈️ FlyEase Research Lab** | Synthetic UX survey pipeline, feature engineering, regression baselines and explainability | [Code](projects/flyease-research-lab) |
-| **🧠 Adaptive Learning Engine** | FastAPI-based tutoring demo with question scheduling, progress tracking & unit tests | [Code](projects/adaptive-learning-engine) |
+| **🏘️ DealerFlow API** | ASP.NET Core + EF Core + SQLite; dealer/listing workflows, filters, validation | [Code](https://github.com/ibrar1921/dealerflow-api) |
+| **🔎 ERP Migration Auditor** | Python CSV quality gates, schema validation, monetary precision, audit reports & tests | [Code](https://github.com/ibrar1921/erp-migration-auditor) |
+| **✈️ FlyEase Research Lab** | Synthetic UX survey pipeline, feature engineering, regression baselines and explainability | [Code](https://github.com/ibrar1921/flyease-research-lab) |
+| **🧠 Adaptive Learning Engine** | FastAPI-based tutoring demo with question scheduling, progress tracking & unit tests | [Code](https://github.com/ibrar1921/adaptive-learning-engine) |
 
 ### Additional AI, analytics and software demos
 
