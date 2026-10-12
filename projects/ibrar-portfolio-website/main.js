@@ -16,7 +16,7 @@ for(const [title,tag,description,slug] of projects){
   const heading=document.createElement("h3"); heading.textContent=title;
   const para=document.createElement("p"); para.textContent=description;
   const link=document.createElement("a");
-  link.href="https://github.com/ibrar1921/ibrar1921/tree/main/projects/"+slug;
+  link.href=["dealerflow-api","erp-migration-auditor","flyease-research-lab","adaptive-learning-engine"].includes(slug) ? "https://github.com/ibrar1921/"+slug : "https://github.com/ibrar1921/ibrar1921/tree/main/projects/"+slug;
   link.target="_blank"; link.rel="noopener"; link.textContent="View source code ↗";
   article.append(badge,heading,para,link);grid.append(article);
 }
