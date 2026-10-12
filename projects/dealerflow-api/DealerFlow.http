@@ -1,0 +1,17 @@
+@base = http://localhost:5070
+GET {{base}}/health
+###
+GET {{base}}/api/dealers
+###
+POST {{base}}/api/dealers
+Content-Type: application/json
+
+{"name":"Northside Property Partners","region":"London"}
+###
+# Copy the dealer ID from the response before creating a listing.
+POST {{base}}/api/listings
+Content-Type: application/json
+
+{"dealerId":"00000000-0000-0000-0000-000000000000","title":"Modern two-bedroom flat","price":285000}
+###
+GET {{base}}/api/listings?status=published
