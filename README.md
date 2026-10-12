@@ -1,67 +1,77 @@
 <div align="center">
 
-# Hi, I'm Ibrar Pervaiz 👋
+# Hello, I'm Ibrar Pervaiz 👋
 
-**MSc Computer Science | Artificial Intelligence & Machine Learning | Software Engineering**
+### Software Engineer · MSc Computer Science · Applied AI & Data Science
 
-Interested in **explainable AI, digital health, trustworthy machine learning, and practical software systems**.
+**Building practical software, data-driven applications, and reproducible machine-learning prototypes.**
 
-[Explore the project showcase](#featured-projects) · [Research interests](#research-interests) · [Get in touch](#connect)
+[![GitHub](https://img.shields.io/badge/GitHub-ibrar1921-181717?logo=github)](https://github.com/ibrar1921)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ibrar%20Pervaiz-0A66C2?logo=linkedin)](https://www.linkedin.com/in/ibrar-pervaiz-0b1a2a158/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail)](mailto:Ibrar9798@gmail.com)
 
 </div>
 
 ---
 
-### About me
+## 👨‍💻 About me
 
-- 🎓 MSc in Computer Science, with interests in **AI, machine learning, data science, and software engineering**.
-- 💼 Manager at **Jadeed Feed Industries Pvt. Ltd., Pakistan**, with experience connecting technical ideas to operational needs.
-- 🔬 Exploring research problems involving **healthcare AI, interpretable predictive models, ECG analysis, and privacy-aware learning**.
-- 🧩 Building reproducible, documented software demonstrations that bridge applied machine learning and real-world use cases.
+I'm a **Software Engineer at K.M.S Business Services Ltd. in London (October 2023–present)** and an **MSc Computer Science graduate of York St John University**. My interests span practical full-stack software engineering, machine learning, quantitative research, and human-centred design.
 
-### Technical focus
+Previously, I worked as an **Assistant IT Officer at Jadeed Feed Industries Pvt. Ltd. (2019–2023)**, supporting ERP implementation, legacy-data migration, payroll/inventory workflows, and staff training; and as a **Professional Service Engineer — Web Technologies at Softorea Solutions (2018–2019)**, developing ASP.NET-based applications and REST APIs.
 
-| Area | Topics and tools explored in this portfolio |
-| --- | --- |
-| Programming | Python, SQL, JavaScript, TypeScript |
-| Machine learning | pandas, scikit-learn, PyTorch, explainability, evaluation |
-| Backend and APIs | FastAPI, REST APIs, Python testing |
-| Data applications | Streamlit, Plotly, data validation, forecasting |
-| Software delivery | Git, GitHub Actions, Docker, reproducible development |
+- 🎓 **Education:** MSc Computer Science — York St John University; bachelor's in Software Engineering — Foundation University.
+- 🔎 **Research:** FlyEase MSc research investigated mobile flight-booking UX using a **61-participant survey**, SPSS analysis, ML comparisons and Figma prototypes. The manuscript is not presented here as peer-reviewed publication.
+- 🧠 **Interests:** interpretable ML, quantitative UX research, AI in education, digital-health research, practical analytics.
+- 🏆 **Achievement:** Winner, ICSSC'19 Speed Programming Competition.
 
-> **Portfolio note:** The projects below are independent demonstration implementations. Clinical prediction examples are educational and **not validated for medical decisions**. Project descriptions distinguish implemented functionality from possible research extensions.
+## 🛠️ Technical skills
 
-### Featured projects
+| Focus | Tools & technologies |
+|:---|:---|
+| **Backend & APIs** | C#, ASP.NET MVC / Core, ASP.NET Web API, REST, SignalR |
+| **Frontend & UX** | Angular, JavaScript, HTML, CSS, Bootstrap, Figma |
+| **Data & ML** | Python, pandas, NumPy, scikit-learn, SPSS, data preprocessing, predictive modeling |
+| **Databases & business software** | MySQL, Firebase, ERP implementation, data migration & validation |
+| **Engineering practices** | Git/GitHub, software testing, troubleshooting, requirements analysis, Agile/Jira |
+
+## 💻 Featured software projects
+
+The repositories below are **original educational portfolio implementations** and are not copies of employers' proprietary code.
+
+### New CV-aligned coding projects
+
+| Project | What it demonstrates | Source |
+|:---|:---|:---|
+| **🏘️ DealerFlow API** | ASP.NET Core + EF Core + SQLite; dealer/listing workflows, filters, validation | [Code](projects/dealerflow-api) |
+| **🔎 ERP Migration Auditor** | Python CSV quality gates, schema validation, monetary precision, audit reports & tests | [Code](projects/erp-migration-auditor) |
+| **✈️ FlyEase Research Lab** | Synthetic UX survey pipeline, feature engineering, regression baselines and explainability | [Code](projects/flyease-research-lab) |
+| **🧠 Adaptive Learning Engine** | FastAPI-based tutoring demo with question scheduling, progress tracking & unit tests | [Code](projects/adaptive-learning-engine) |
+
+### Additional AI, analytics and software demos
 
 | Project | Focus | Source |
-| --- | --- | --- |
-| 🫀 **Cardiac Risk Explorer** | Interpretable clinical-feature classification, training and evaluation | [Browse code](projects/ai-cardiac-risk-prediction) |
-| 📈 **ECG Rhythm Lab** | Deep learning for time-series classification using simulated ECG-like waveforms | [Browse code](projects/ecg-arrhythmia-detection) |
-| 🏭 **Industrial Analytics Studio** | Operations KPIs, anomaly views and time-series visual analytics | [Browse code](projects/industrial-analytics-dashboard) |
-| 🔐 **Federated Learning Simulator** | Federated averaging with client data kept local during simulated training | [Browse code](projects/federated-healthcare-ai) |
-| 🚀 **MLOps Model Service** | Training and versioned FastAPI inference, automated tests, Docker | [Browse code](projects/mlops-pipeline) |
-| 🌐 **Personal Portfolio Website** | Responsive research and project showcase | [Browse website source](projects/ibrar-portfolio-website) |
+|:---|:---|:---|
+| **Industrial Analytics Studio** | Interactive synthetic production KPI dashboard | [Code](projects/industrial-analytics-dashboard) |
+| **MLOps Model Service** | scikit-learn + FastAPI + Docker + testing | [Code](projects/mlops-pipeline) |
+| **Federated Learning Simulator** | Multi-client aggregation on synthetic data | [Code](projects/federated-healthcare-ai) |
+| **ECG Rhythm Lab** | 1D CNN trained on synthetic waveforms (**not clinical ECG**) | [Code](projects/ecg-arrhythmia-detection) |
+| **Classification Methodology Demo** | ML evaluation and feature importance on a non-cardiac benchmark | [Code](projects/ai-cardiac-risk-prediction) |
+| **Portfolio Website** | Responsive website source featuring research and software work | [Code](projects/ibrar-portfolio-website) |
 
-> These projects are maintained together in this profile repository for now. They can be separated into individual repositories later.
+> **Honest project status:** These are demonstration codebases, not deployed enterprise products. The healthcare-themed demos are **not clinically validated**. The FlyEase sample survey is **synthetic** and does not reproduce participants' responses.
 
-### Research interests
+## 🔬 Research directions
 
-- **Explainability and uncertainty:** interpretable predictions, calibration, robustness, and out-of-distribution behavior.
-- **AI for health:** time-series modeling, publicly available physiological signals, and clinically meaningful evaluation design.
-- **Privacy-aware AI:** federated training, heterogeneous data and responsible data handling.
-- **Applied decision support:** operational analytics, data quality, reproducibility and human-centered software.
+- **Applied & explainable ML:** benchmarking, robust preprocessing, interpretability and uncertainty-aware evaluation.
+- **Human-centred AI:** usability, user needs, mixed-method validation and trustworthy decision support.
+- **AI in education:** adaptive learning interfaces, learner-state modeling and transparent recommendation logic.
+- **Applied analytics:** operational data quality, migration validation and practical dashboards.
 
-### Portfolio development roadmap
+## 📫 Connect
 
-- [x] Profile and accessible source-code showcase
-- [ ] Expand experiment tracking and systematic baselines
-- [ ] Add model cards, subgroup evaluation and data governance notes for public healthcare datasets
-- [ ] Publish technical write-ups and independent research findings
+- **LinkedIn:** [ibrar-pervaiz-0b1a2a158](https://www.linkedin.com/in/ibrar-pervaiz-0b1a2a158/)
+- **Email:** [Ibrar9798@gmail.com](mailto:Ibrar9798@gmail.com)
+- **GitHub:** [github.com/ibrar1921](https://github.com/ibrar1921)
 
-### Connect
-
-- **GitHub:** [@ibrar1921](https://github.com/ibrar1921)
-- **LinkedIn:** Add a verified LinkedIn profile here
-- **Email:** Add a preferred professional contact email here
-
-<sub>All examples are for learning and portfolio demonstration; they are not production or clinical decision tools.</sub>
+<sub>Documentation distinguishes sourced professional history from newly developed learning projects. Views and code here are personal; no confidential employer or participant data is included.</sub>
